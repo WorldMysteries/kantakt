@@ -1,0 +1,1505 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакт (1997) — Научно-фантастическая драма Роберта Земекиса</title>
+    <meta
+      name="description"
+      content="Редакционное архивное досье о научно-фантастической драме Роберта Земекиса «Контакт» (1997) по роману Карла Сагана: сюжет, сигнал с Веги, устройство Машины, актёры и научная основа."
+    />
+    <meta property="og:title" content="Контакт (1997) — Архив фильма" />
+    <meta
+      property="og:description"
+      content="Редакционное архивное досье о научно-фантастической драме Роберта Земекиса «Контакт» (1997), выполненное на чистом HTML5 и CSS3."
+    />
+    <meta property="og:type" content="article" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg-canvas: #07090f;
+        --bg-surface: #0d121d;
+        --bg-surface-alt: #121928;
+        --border-hairline: rgba(226, 232, 240, 0.12);
+        --border-strong: rgba(226, 232, 240, 0.22);
+        --text-primary: #f2efe9;
+        --text-secondary: #b4bccb;
+        --text-muted: #7c879b;
+        --accent-amber: #d99b52;
+        --accent-amber-hover: #e5ad6a;
+        --accent-vega: #7db4f5;
+        --font-display: 'Cormorant Garamond', Georgia, serif;
+        --font-sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+        --container-max: 1200px;
+        --radius-sm: 4px;
+        --radius-md: 8px;
+        --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        background-color: var(--bg-canvas);
+        color: var(--text-primary);
+        font-family: var(--font-sans);
+        font-size: 16px;
+        line-height: 1.65;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      body {
+        margin: 0;
+        background-color: var(--bg-canvas);
+        color: var(--text-primary);
+        overflow-x: hidden;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      :focus-visible {
+        outline: 2px solid var(--accent-amber);
+        outline-offset: 3px;
+      }
+
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      .tabular {
+        font-variant-numeric: tabular-nums;
+      }
+
+      .container {
+        width: 100%;
+        max-width: var(--container-max);
+        margin-inline: auto;
+        padding-inline: 24px;
+      }
+
+      /* Top Bar Contract: strictly 1 row, 3 zones separated by gap-8 */
+      .site-header {
+        position: sticky;
+        top: 0;
+        z-index: 40;
+        background-color: rgba(7, 9, 15, 0.92);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid var(--border-hairline);
+      }
+
+      .header-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 32px;
+        min-height: 64px;
+        padding-block: 10px;
+      }
+
+      .brand-wordmark {
+        font-family: var(--font-display);
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        color: var(--text-primary);
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+
+      .main-nav {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+      }
+
+      .nav-link {
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: var(--text-secondary);
+        white-space: nowrap;
+        flex-shrink: 0;
+        padding-block: 6px;
+        border-bottom: 1px solid transparent;
+        transition: color 180ms var(--ease-out), border-color 180ms var(--ease-out);
+      }
+
+      .nav-link:hover {
+        color: var(--text-primary);
+        border-bottom-color: var(--accent-amber);
+      }
+
+      .header-action {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 40px;
+        padding: 8px 18px;
+        font-size: 0.8125rem;
+        font-weight: 600;
+        letter-spacing: 0.01em;
+        color: #07090f;
+        background-color: var(--accent-amber);
+        border-radius: var(--radius-sm);
+        white-space: nowrap;
+        flex-shrink: 0;
+        transition: background-color 180ms var(--ease-out), transform 180ms var(--ease-out);
+      }
+
+      .header-action:hover {
+        background-color: var(--accent-amber-hover);
+        transform: translateY(-1px);
+      }
+
+      /* Hero Section */
+      .hero {
+        position: relative;
+        min-height: min(760px, 84vh);
+        display: flex;
+        align-items: flex-end;
+        border-bottom: 1px solid var(--border-hairline);
+        background: radial-gradient(circle at 78% 24%, rgba(125, 180, 245, 0.16), transparent 45%),
+          linear-gradient(160deg, #0b101d 0%, #07090f 100%);
+        overflow: hidden;
+      }
+
+      .hero-media {
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+      }
+
+      .hero-media img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center 35%;
+        opacity: 0.78;
+      }
+
+      .hero-scrim {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        background: linear-gradient(
+            to top,
+            #07090f 0%,
+            rgba(7, 9, 15, 0.82) 38%,
+            rgba(7, 9, 15, 0.34) 75%,
+            rgba(7, 9, 15, 0.55) 100%
+          ),
+          linear-gradient(to right, rgba(7, 9, 15, 0.85) 0%, rgba(7, 9, 15, 0.35) 55%, transparent 100%);
+      }
+
+      .hero-content {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        padding-block: 72px 56px;
+      }
+
+      .hero-meta {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+        margin: 0 0 18px;
+        font-family: var(--font-mono);
+        font-size: 0.8125rem;
+        color: var(--text-secondary);
+        letter-spacing: 0.02em;
+      }
+
+      .meta-sep {
+        color: var(--text-muted);
+      }
+
+      .hero-title {
+        margin: 0;
+        max-width: 14ch;
+        font-family: var(--font-display);
+        font-size: clamp(3.25rem, 6.8vw, 5.5rem);
+        font-weight: 600;
+        line-height: 0.96;
+        letter-spacing: -0.015em;
+        color: var(--text-primary);
+        text-wrap: balance;
+      }
+
+      .hero-subtitle {
+        margin: 22px 0 0;
+        max-width: 58ch;
+        font-size: 1.125rem;
+        line-height: 1.65;
+        color: var(--text-secondary);
+        letter-spacing: 0.01em;
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 16px;
+        margin-top: 32px;
+      }
+
+      .btn-primary {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 10px 24px;
+        font-size: 0.9375rem;
+        font-weight: 600;
+        color: #07090f;
+        background-color: var(--accent-amber);
+        border-radius: var(--radius-sm);
+        white-space: nowrap;
+        transition: background-color 180ms var(--ease-out), transform 180ms var(--ease-out);
+      }
+
+      .btn-primary:hover {
+        background-color: var(--accent-amber-hover);
+        transform: translateY(-1px);
+      }
+
+      .btn-secondary {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 10px 22px;
+        font-size: 0.9375rem;
+        font-weight: 500;
+        color: var(--text-primary);
+        background-color: rgba(13, 18, 29, 0.72);
+        border: 1px solid var(--border-strong);
+        border-radius: var(--radius-sm);
+        white-space: nowrap;
+        transition: border-color 180ms var(--ease-out), background-color 180ms var(--ease-out);
+      }
+
+      .btn-secondary:hover {
+        border-color: var(--accent-amber);
+        background-color: var(--bg-surface);
+      }
+
+      /* Full-width 4-column archival telemetry strip below hero */
+      .telemetry-strip {
+        background-color: var(--bg-surface);
+        border-bottom: 1px solid var(--border-hairline);
+      }
+
+      .telemetry-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .telemetry-cell {
+        padding: 24px 24px 24px 0;
+        border-right: 1px solid var(--border-hairline);
+      }
+
+      .telemetry-cell:not(:first-child) {
+        padding-left: 24px;
+      }
+
+      .telemetry-cell:last-child {
+        border-right: none;
+        padding-right: 0;
+      }
+
+      .telemetry-value {
+        font-family: var(--font-mono);
+        font-size: 1.375rem;
+        font-weight: 500;
+        color: var(--text-primary);
+        letter-spacing: -0.01em;
+      }
+
+      .telemetry-label {
+        margin-top: 6px;
+        font-size: 0.8125rem;
+        line-height: 1.45;
+        color: var(--text-muted);
+      }
+
+      /* Sections */
+      .section {
+        padding-block: 80px;
+        border-bottom: 1px solid var(--border-hairline);
+      }
+
+      .section-header {
+        margin-bottom: 40px;
+        max-width: 70ch;
+      }
+
+      .section-index {
+        display: block;
+        margin-bottom: 10px;
+        font-family: var(--font-mono);
+        font-size: 0.8125rem;
+        color: var(--accent-amber);
+        letter-spacing: 0.04em;
+      }
+
+      .section-title {
+        margin: 0;
+        font-family: var(--font-display);
+        font-size: clamp(2rem, 3.4vw, 2.75rem);
+        font-weight: 600;
+        line-height: 1.12;
+        color: var(--text-primary);
+        text-wrap: balance;
+      }
+
+      .section-lead {
+        margin: 14px 0 0;
+        font-size: 1.0625rem;
+        color: var(--text-secondary);
+        line-height: 1.65;
+      }
+
+      /* Section 01: Asymmetric Editorial Reading Canvas (70% prose / 30% margin notes) */
+      .editorial-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.85fr) minmax(280px, 1fr);
+        gap: 56px;
+        align-items: start;
+      }
+
+      .prose-column {
+        max-width: 68ch;
+      }
+
+      .prose-column p {
+        margin: 0 0 22px;
+        font-size: 1.03125rem;
+        line-height: 1.78;
+        color: var(--text-secondary);
+        letter-spacing: 0.008em;
+      }
+
+      .prose-column p:last-child {
+        margin-bottom: 0;
+      }
+
+      .drop-cap::first-letter {
+        float: left;
+        font-family: var(--font-display);
+        font-size: 4.25rem;
+        font-weight: 600;
+        line-height: 0.82;
+        padding-top: 6px;
+        padding-right: 14px;
+        color: var(--accent-amber);
+      }
+
+      .prose-column h3 {
+        margin: 36px 0 14px;
+        font-family: var(--font-display);
+        font-size: 1.625rem;
+        font-weight: 600;
+        color: var(--text-primary);
+      }
+
+      /* Margin Sidebar */
+      .margin-aside {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+      }
+
+      .figure-frame {
+        margin: 0;
+        background: linear-gradient(135deg, #101726 0%, #0b101b 100%);
+        border: 1px solid var(--border-hairline);
+        border-radius: var(--radius-md);
+        overflow: hidden;
+      }
+
+      .figure-media {
+        aspect-ratio: 4 / 3;
+        background: radial-gradient(circle at 50% 40%, rgba(125, 180, 245, 0.12), transparent 65%),
+          #0c1220;
+        overflow: hidden;
+      }
+
+      .figure-media-wide {
+        aspect-ratio: 16 / 9;
+      }
+
+      .figure-media img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .figure-caption {
+        padding: 14px 18px;
+        font-family: var(--font-display);
+        font-style: italic;
+        font-size: 0.9375rem;
+        line-height: 1.45;
+        color: var(--text-secondary);
+        border-top: 1px solid var(--border-hairline);
+      }
+
+      .accession-list {
+        margin: 0;
+        padding: 20px 24px;
+        background-color: var(--bg-surface);
+        border: 1px solid var(--border-hairline);
+        border-radius: var(--radius-md);
+      }
+
+      .accession-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        padding-block: 11px;
+        border-bottom: 1px solid var(--border-hairline);
+        font-size: 0.875rem;
+      }
+
+      .accession-row:first-child {
+        padding-top: 0;
+      }
+
+      .accession-row:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+
+      .accession-row dt {
+        color: var(--text-muted);
+      }
+
+      .accession-row dd {
+        margin: 0;
+        text-align: right;
+        color: var(--text-primary);
+        font-weight: 500;
+      }
+
+      /* Editorial Pull Quote (No left border-l-4! Top and bottom hairlines only) */
+      .pull-quote {
+        margin: 56px 0 0;
+        padding-block: 36px;
+        border-top: 1px solid var(--border-strong);
+        border-bottom: 1px solid var(--border-strong);
+        text-align: center;
+      }
+
+      .pull-quote blockquote {
+        margin: 0 auto;
+        max-width: 34ch;
+        font-family: var(--font-display);
+        font-style: italic;
+        font-size: clamp(1.625rem, 2.8vw, 2.25rem);
+        line-height: 1.35;
+        color: var(--text-primary);
+      }
+
+      .pull-quote figcaption {
+        margin-top: 14px;
+        font-size: 0.875rem;
+        color: var(--text-muted);
+      }
+
+      /* Section 02: Pure CSS Interactive Tabs (Zero JS) */
+      .dossier-tabs {
+        position: relative;
+      }
+
+      .tab-bar {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        padding: 4px;
+        background-color: var(--bg-surface);
+        border: 1px solid var(--border-hairline);
+        border-radius: var(--radius-md);
+        margin-bottom: 32px;
+      }
+
+      .tab-label {
+        display: inline-flex;
+        align-items: center;
+        min-height: 40px;
+        padding: 8px 18px;
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: var(--text-secondary);
+        border-radius: var(--radius-sm);
+        cursor: pointer;
+        white-space: nowrap;
+        transition: background-color 160ms var(--ease-out), color 160ms var(--ease-out);
+      }
+
+      .tab-label:hover {
+        color: var(--text-primary);
+      }
+
+      .tab-panel {
+        display: none;
+        background-color: var(--bg-surface);
+        border: 1px solid var(--border-hairline);
+        border-radius: var(--radius-md);
+        overflow: hidden;
+      }
+
+      #tab-signal:checked ~ .tab-bar label[for='tab-signal'],
+      #tab-machine:checked ~ .tab-bar label[for='tab-machine'],
+      #tab-transit:checked ~ .tab-bar label[for='tab-transit'] {
+        background-color: var(--accent-amber);
+        color: #07090f;
+        font-weight: 600;
+      }
+
+      #tab-signal:checked ~ .tab-panels #panel-signal,
+      #tab-machine:checked ~ .tab-panels #panel-machine,
+      #tab-transit:checked ~ .tab-panels #panel-transit {
+        display: grid;
+        grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+        align-items: stretch;
+      }
+
+      .tab-visual {
+        background-color: #0a0f1a;
+        border-right: 1px solid var(--border-hairline);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .tab-visual-media {
+        flex: 1 1 auto;
+        min-height: 300px;
+        overflow: hidden;
+      }
+
+      .tab-visual-media img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .tab-visual-footer {
+        padding: 16px 24px;
+        border-top: 1px solid var(--border-hairline);
+        font-family: var(--font-mono);
+        font-size: 0.8125rem;
+        color: var(--text-muted);
+      }
+
+      .tab-body {
+        padding: 36px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 28px;
+      }
+
+      .tab-body h3 {
+        margin: 0 0 14px;
+        font-family: var(--font-display);
+        font-size: 1.875rem;
+        font-weight: 600;
+        line-height: 1.2;
+        color: var(--text-primary);
+      }
+
+      .tab-body p {
+        margin: 0 0 16px;
+        font-size: 0.96875rem;
+        line-height: 1.72;
+        color: var(--text-secondary);
+      }
+
+      .spec-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+        padding-top: 24px;
+        border-top: 1px solid var(--border-hairline);
+      }
+
+      .spec-item-label {
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        margin-bottom: 4px;
+      }
+
+      .spec-item-val {
+        font-family: var(--font-mono);
+        font-size: 0.9375rem;
+        color: var(--text-primary);
+      }
+
+      /* Signal SVG calibration diagram */
+      .spectrum-box {
+        padding: 32px 28px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        height: 100%;
+        background: radial-gradient(circle at 50% 35%, rgba(125, 180, 245, 0.1), transparent 70%),
+          #0a0f1a;
+      }
+
+      .spectrum-caption {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        font-family: var(--font-mono);
+        font-size: 0.78rem;
+        color: var(--text-muted);
+      }
+
+      .prime-sequence {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 18px;
+        padding-top: 16px;
+        border-top: 1px solid var(--border-hairline);
+        font-family: var(--font-mono);
+        font-size: 0.9375rem;
+        color: var(--accent-vega);
+      }
+
+      /* Section 03: Cast Table & Expandable Native HTML5 <details> Dossiers */
+      .cast-table-wrap {
+        width: 100%;
+        overflow-x: auto;
+        background-color: var(--bg-surface);
+        border: 1px solid var(--border-hairline);
+        border-radius: var(--radius-md);
+      }
+
+      .cast-table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+      }
+
+      .cast-table th {
+        padding: 16px 24px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        color: var(--text-muted);
+        border-bottom: 1px solid var(--border-strong);
+        white-space: nowrap;
+      }
+
+      .cast-table td {
+        padding: 18px 24px;
+        font-size: 0.9375rem;
+        color: var(--text-secondary);
+        border-bottom: 1px solid var(--border-hairline);
+        vertical-align: top;
+      }
+
+      .cast-table tr:last-child td {
+        border-bottom: none;
+      }
+
+      .cast-actor {
+        font-weight: 600;
+        color: var(--text-primary);
+        white-space: nowrap;
+      }
+
+      .cast-role {
+        color: var(--accent-amber);
+        font-weight: 500;
+      }
+
+      /* Native <details> accordions */
+      .dossier-list {
+        margin-top: 40px;
+        border-top: 1px solid var(--border-hairline);
+      }
+
+      .dossier-item {
+        border-bottom: 1px solid var(--border-hairline);
+      }
+
+      .dossier-summary {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        padding-block: 22px;
+        min-height: 44px;
+        font-family: var(--font-display);
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--text-primary);
+        cursor: pointer;
+        list-style: none;
+        transition: color 180ms var(--ease-out);
+      }
+
+      .dossier-summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .dossier-summary:hover {
+        color: var(--accent-amber);
+      }
+
+      .dossier-marker {
+        font-family: var(--font-mono);
+        font-size: 1.125rem;
+        color: var(--text-muted);
+        transition: transform 200ms var(--ease-out), color 200ms var(--ease-out);
+      }
+
+      .dossier-item[open] .dossier-marker {
+        transform: rotate(45deg);
+        color: var(--accent-amber);
+      }
+
+      .dossier-content {
+        padding: 0 0 28px;
+        max-width: 72ch;
+        color: var(--text-secondary);
+        font-size: 0.98rem;
+        line-height: 1.75;
+      }
+
+      .dossier-content p {
+        margin: 0 0 14px;
+      }
+
+      .dossier-content p:last-child {
+        margin-bottom: 0;
+      }
+
+      /* Footer */
+      .site-footer {
+        padding-block: 44px;
+        background-color: var(--bg-canvas);
+      }
+
+      .footer-inner {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        font-size: 0.875rem;
+        color: var(--text-muted);
+      }
+
+      .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+      }
+
+      .footer-links a:hover {
+        color: var(--text-primary);
+      }
+
+      /* Responsive */
+      @media (max-width: 1024px) {
+        .telemetry-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .telemetry-cell {
+          padding: 20px 18px;
+          border-bottom: 1px solid var(--border-hairline);
+        }
+
+        .telemetry-cell:nth-child(odd) {
+          padding-left: 0;
+        }
+
+        .telemetry-cell:nth-child(even) {
+          border-right: none;
+          padding-right: 0;
+        }
+
+        .editorial-grid {
+          grid-template-columns: 1fr;
+          gap: 40px;
+        }
+
+        #tab-signal:checked ~ .tab-panels #panel-signal,
+        #tab-machine:checked ~ .tab-panels #panel-machine,
+        #tab-transit:checked ~ .tab-panels #panel-transit {
+          grid-template-columns: 1fr;
+        }
+
+        .tab-visual {
+          border-right: none;
+          border-bottom: 1px solid var(--border-hairline);
+        }
+      }
+
+      @media (max-width: 768px) {
+        .main-nav {
+          display: none;
+        }
+
+        .hero {
+          min-height: 540px;
+        }
+
+        .hero-content {
+          padding-block: 48px 40px;
+        }
+
+        .telemetry-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .telemetry-cell,
+        .telemetry-cell:not(:first-child) {
+          padding: 18px 0;
+          border-right: none;
+        }
+
+        .section {
+          padding-block: 56px;
+        }
+
+        .tab-body {
+          padding: 24px;
+        }
+
+        .spec-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+
+        *,
+        *::before,
+        *::after {
+          transition-duration: 0.01ms !important;
+          animation-duration: 0.01ms !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Top Bar: strictly 3 zones (Wordmark | Nav links | 1 Primary CTA) -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="brand-wordmark">Контакт</a>
+
+        <nav class="main-nav" aria-label="Разделы архива">
+          <a href="#synopsis" class="nav-link">Синопсис</a>
+          <a href="#signal-dossier" class="nav-link">Сигнал и Машина</a>
+          <a href="#cast" class="nav-link">Актёры</a>
+          <a href="#legacy" class="nav-link">Наука и наследие</a>
+        </nav>
+
+        <a href="#signal-dossier" class="header-action">Расшифровка</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- Hero Section -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media">
+          <img
+            src="images/hero_vla_observatory.jpg"
+            alt="Радиотелескопы обсерватории VLA в Нью-Мексико под звёздным небом со звездой Вега"
+            referrerpolicy="no-referrer"
+          />
+        </div>
+        <div class="hero-scrim" aria-hidden="true"></div>
+
+        <div class="container hero-content">
+          <p class="hero-meta tabular">
+            <span>Режиссёр Роберт Земекис</span>
+            <span class="meta-sep" aria-hidden="true">·</span>
+            <span>11 июля 1997</span>
+            <span class="meta-sep" aria-hidden="true">·</span>
+            <span>США</span>
+            <span class="meta-sep" aria-hidden="true">·</span>
+            <span>150 мин</span>
+          </p>
+
+          <h1 id="hero-title" class="hero-title">Контакт</h1>
+
+          <p class="hero-subtitle">
+            Американская научно-фантастическая драма 1997 года, снятая по одноимённому роману
+            астрофизика Карла Сагана. История о первом подтверждённом радиосигнале внеземного
+            разума из системы Веги и извечном споре между эмпирическим доказательством и верой.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#synopsis" class="btn-primary">Читать досье фильма</a>
+            <a href="#cast" class="btn-secondary">Актёрский состав</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Full-width 4-column telemetry strip -->
+      <section class="telemetry-strip" aria-label="Ключевые параметры фильма и сигнала">
+        <div class="container telemetry-grid">
+          <div class="telemetry-cell">
+            <div class="telemetry-value tabular">26 световых лет</div>
+            <div class="telemetry-label">Дистанция до источника сигнала — звезды Вега (α Лиры)</div>
+          </div>
+          <div class="telemetry-cell">
+            <div class="telemetry-value tabular">1420,405 МГц</div>
+            <div class="telemetry-label">Частота нейтрального водорода, умноженная на число π</div>
+          </div>
+          <div class="telemetry-cell">
+            <div class="telemetry-value tabular">61 728 страниц</div>
+            <div class="telemetry-label">Объём зашифрованных чертежей транспортного комплекса</div>
+          </div>
+          <div class="telemetry-cell">
+            <div class="telemetry-value tabular">18 часов</div>
+            <div class="telemetry-label">Длительность статических помех на бортовом самописце</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 01: Editorial Synopsis & Margin Notes -->
+      <section id="synopsis" class="section">
+        <div class="container">
+          <header class="section-header">
+            <span class="section-index tabular">01. Сюжет и конфликт</span>
+            <h2 class="section-title">От детского радиоприёмника до орбиты Веги</h2>
+            <p class="section-lead">
+              Драматургия «Контакта» выстраивается вокруг личной утраты, научной честности и
+              столкновения мировоззрений в момент величайшего открытия в истории человечества.
+            </p>
+          </header>
+
+          <div class="editorial-grid">
+            <article class="prose-column">
+              <p class="drop-cap">
+                Элеонора «Элли» Эрроуэй с детства училась слушать мир сквозь радиошум: её отец
+                Теодор подарил ей коротковолновый трансивер, и вскоре после его внезапной смерти
+                девятилетняя девочка безуспешно пыталась связаться с ним в эфире. Став блестящим
+                радиоастрономом, Элли посвящает карьеру программе SETI — поиску радиосигналов
+                внеземных цивилизаций в обсерватории Аресибо, а затем на решётке радиотелескопов
+                VLA в Нью-Мексико.
+              </p>
+
+              <p>
+                Научное сообщество относится к её исследованиям скептически. Руководитель
+                Национального научного фонда Дэвид Драмлин лишает группу государственного
+                финансирования, считая поиск внеземного разума пустой тратой ресурсов. Проект
+                спасает эксцентричный миллиардер-промышленник С. Р. Хэдден, оплачивающий аренду
+                антенн. Именно в ночь перед очередной попыткой закрытия программы датчики VLA
+                фиксируют направленный пульсирующий сигнал со стороны звезды Вега.
+              </p>
+
+              <h3>Три слоя послания и борьба за место в капсуле</h3>
+
+              <p>
+                Первичная последовательность состоит из простых чисел, однако вскоре учёные
+                обнаруживают скрытую фазовую модуляцию — фрагмент телевизионной трансляции
+                открытия Олимпийских игр 1936 года в Берлине, первого мощного земного телесигнала,
+                прорвавшегося через ионосферу. Глубже, в третьем слое, Хэдден помогает распознать
+                трёхмерную криптографическую матрицу: чертежи колоссальной машины неизвестного
+                назначения.
+              </p>
+
+              <p>
+                Вокруг строительства комплекса разворачивается политическая и религиозная буря.
+                Богослов и президентский советник Палмер Джосс — человек, к которому Элли
+                испытывает глубокую привязанность, — задаёт ей главный вопрос комиссии: верит ли она
+                в Бога? Отказавшись лгать перед мировым отборочным советом и заявив, что как учёный
+                не может принять идею без доказательств, Элли уступает кресло пилота Драмлину.
+                Лишь гибель первого комплекса на мысе Канаверал в результате теракта открывает путь к
+                запуску резервной Машины на острове Хоккайдо, тайно построенной Хэдденом.
+              </p>
+            </article>
+
+            <aside class="margin-aside" aria-label="Архивные данные фильма">
+              <figure class="figure-frame">
+                <div class="figure-media">
+                  <img
+                    src="images/arecibo_radio_dish.jpg"
+                    alt="Сферическая чаша радиотелескопа Аресибо в горах Пуэрто-Рико в утреннем тумане"
+                    referrerpolicy="no-referrer"
+                  />
+                </div>
+                <figcaption class="figure-caption">
+                  Илл. 1. Обсерватория Аресибо в Пуэрто-Рико — место ранних наблюдений Элли
+                  Эрроуэй и её знакомства с Палмером Джоссом.
+                </figcaption>
+              </figure>
+
+              <dl class="accession-list tabular">
+                <div class="accession-row">
+                  <dt>Оригинальное название</dt>
+                  <dd>Contact</dd>
+                </div>
+                <div class="accession-row">
+                  <dt>Литературная основа</dt>
+                  <dd>Роман Карла Сагана (1985)</dd>
+                </div>
+                <div class="accession-row">
+                  <dt>Сценарий</dt>
+                  <dd>Джеймс В. Харт, Майкл Голденберг</dd>
+                </div>
+                <div class="accession-row">
+                  <dt>Оператор-постановщик</dt>
+                  <dd>Дон Бёрджесс</dd>
+                </div>
+                <div class="accession-row">
+                  <dt>Композитор</dt>
+                  <dd>Алан Сильвестри</dd>
+                </div>
+                <div class="accession-row">
+                  <dt>Студия</dt>
+                  <dd>Warner Bros. / South Side</dd>
+                </div>
+                <div class="accession-row">
+                  <dt>Бюджет / Сборы</dt>
+                  <dd>$90 млн / $171,1 млн</dd>
+                </div>
+              </dl>
+            </aside>
+          </div>
+
+          <figure class="pull-quote">
+            <blockquote>
+              «Если во Вселенной кроме нас никого нет — сколько же пропадает пространства...»
+            </blockquote>
+            <figcaption>
+              Лейтмотив диалога Теодора Эрроуэя, Палмера Джосса и Элли Эрроуэй в фильме «Контакт»
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Section 02: Pure CSS Interactive Tabs (Signal, Machine, Transit) -->
+      <section id="signal-dossier" class="section">
+        <div class="container">
+          <header class="section-header">
+            <span class="section-index tabular">02. Инженерное и научное досье</span>
+            <h2 class="section-title">Анатомия сигнала и транспортной Машины</h2>
+            <p class="section-lead">
+              Переключайте вкладки, чтобы рассмотреть три ключевых элемента фильма: структуру
+              радиопослания, архитектуру вращающихся колец и парадокс 18-часового путешествия.
+            </p>
+          </header>
+
+          <div class="dossier-tabs">
+            <input
+              type="radio"
+              name="dossier-tab"
+              id="tab-signal"
+              class="sr-only"
+              checked
+            />
+            <input
+              type="radio"
+              name="dossier-tab"
+              id="tab-machine"
+              class="sr-only"
+            />
+            <input
+              type="radio"
+              name="dossier-tab"
+              id="tab-transit"
+              class="sr-only"
+            />
+
+            <div class="tab-bar" role="tablist" aria-label="Разделы технического досье">
+              <label for="tab-signal" class="tab-label">01. Структура сигнала</label>
+              <label for="tab-machine" class="tab-label">02. Конструкция Машины</label>
+              <label for="tab-transit" class="tab-label">03. 18 часов тишины</label>
+            </div>
+
+            <div class="tab-panels">
+              <!-- Panel 1: Signal -->
+              <article id="panel-signal" class="tab-panel" aria-labelledby="tab-signal">
+                <div class="tab-visual">
+                  <div class="spectrum-box">
+                    <div class="spectrum-caption tabular">
+                      <span>ВОДОРОДНАЯ ЛИНИЯ · 21 СМ</span>
+                      <span>SNR: +42,8 дБ</span>
+                    </div>
+
+                    <svg
+                      viewBox="0 0 520 220"
+                      width="100%"
+                      height="auto"
+                      role="img"
+                      aria-label="Спектрограмма последовательности простых чисел в сигнале с Веги"
+                    >
+                      <line x1="20" y1="185" x2="500" y2="185" stroke="rgba(226,232,240,0.22)" stroke-width="1" />
+                      <line x1="20" y1="130" x2="500" y2="130" stroke="rgba(226,232,240,0.08)" stroke-dasharray="4 4" stroke-width="1" />
+                      <line x1="20" y1="75" x2="500" y2="75" stroke="rgba(226,232,240,0.08)" stroke-dasharray="4 4" stroke-width="1" />
+                      <line x1="20" y1="25" x2="500" y2="25" stroke="rgba(226,232,240,0.08)" stroke-dasharray="4 4" stroke-width="1" />
+
+                      <!-- Calibrated prime number pulse bars: 2, 3, 5, 7, 11, 13, 17, 19 -->
+                      <rect x="44" y="135" width="16" height="50" fill="#7db4f5" opacity="0.88" />
+                      <rect x="92" y="120" width="16" height="65" fill="#7db4f5" opacity="0.88" />
+                      <rect x="148" y="95" width="16" height="90" fill="#7db4f5" opacity="0.92" />
+                      <rect x="208" y="75" width="16" height="110" fill="#7db4f5" opacity="0.95" />
+                      <rect x="276" y="45" width="16" height="140" fill="#d99b52" />
+                      <rect x="336" y="38" width="16" height="147" fill="#d99b52" />
+                      <rect x="404" y="28" width="16" height="157" fill="#d99b52" />
+                      <rect x="464" y="22" width="16" height="163" fill="#d99b52" />
+
+                      <text x="52" y="205" fill="#7c879b" font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="middle">2</text>
+                      <text x="100" y="205" fill="#7c879b" font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="middle">3</text>
+                      <text x="156" y="205" fill="#7c879b" font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="middle">5</text>
+                      <text x="216" y="205" fill="#7c879b" font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="middle">7</text>
+                      <text x="284" y="205" fill="#d99b52" font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="middle">11</text>
+                      <text x="344" y="205" fill="#d99b52" font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="middle">13</text>
+                      <text x="412" y="205" fill="#d99b52" font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="middle">17</text>
+                      <text x="472" y="205" fill="#d99b52" font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="middle">19</text>
+                    </svg>
+
+                    <div class="prime-sequence tabular" aria-label="Начальная последовательность простых чисел">
+                      <span>2</span><span>3</span><span>5</span><span>7</span><span>11</span>
+                      <span>13</span><span>17</span><span>19</span><span>23</span><span>29</span>
+                      <span>31</span><span>37</span><span>41</span><span>43</span><span>47</span>
+                    </div>
+                  </div>
+                  <div class="tab-visual-footer tabular">
+                    Координаты: α 18h 36m 56.3s · δ +38° 47′ 01″ · Несущая: 4,462336 ГГц
+                  </div>
+                </div>
+
+                <div class="tab-body">
+                  <div>
+                    <h3>Трёхслойная архитектура послания из созвездия Лиры</h3>
+                    <p>
+                      В качестве универсального «маяка» отправители выбрали частоту излучения
+                      нейтрального атомарного водорода (1420,405 МГц), умноженную на число π.
+                      Последовательность импульсов, соответствующих простым числам от 2 до 101,
+                      исключает природное астрофизическое происхождение сигнала.
+                    </p>
+                    <p>
+                      Во втором слое инженеры обнаруживают ретрансляцию речи 1936 года — сигнал,
+                      который человечество само отправило в космос 52 годами ранее. Третий же,
+                      глубинный слой содержит 61 728 страниц технических схем, ключ к чтению
+                      которых в трёхмерном пространстве находит С. Р. Хэдден.
+                    </p>
+                  </div>
+
+                  <div class="spec-grid tabular">
+                    <div>
+                      <div class="spec-item-label">Базовая частота</div>
+                      <div class="spec-item-val">1420,40575177 МГц × π</div>
+                    </div>
+                    <div>
+                      <div class="spec-item-label">Диапазон простых чисел</div>
+                      <div class="spec-item-val">2 — 101 (26 значений)</div>
+                    </div>
+                    <div>
+                      <div class="spec-item-label">Временной отклик</div>
+                      <div class="spec-item-val">1936 → 1962 → 1988/1997</div>
+                    </div>
+                    <div>
+                      <div class="spec-item-label">Способ кодирования</div>
+                      <div class="spec-item-val">3D-матрица с учебником</div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Panel 2: Machine -->
+              <article id="panel-machine" class="tab-panel" aria-labelledby="tab-machine">
+                <div class="tab-visual">
+                  <div class="tab-visual-media">
+                    <img
+                      src="images/vega_machine_blueprint.jpg"
+                      alt="Транспортная машина из трёх гигантских вращающихся титановых колец над прибрежными скалами"
+                      referrerpolicy="no-referrer"
+                    />
+                  </div>
+                  <div class="tab-visual-footer tabular">
+                    Комплекс II · Остров Хоккайдо, Япония · Три ортогональных ротора
+                  </div>
+                </div>
+
+                <div class="tab-body">
+                  <div>
+                    <h3>Три концентрических кольца и эрбиевый сплав</h3>
+                    <p>
+                      Машина представляет собой гигантский трёхосный кардановый подвес высотой
+                      свыше ста метров, установленный над береговым обрывом. Три массивных кольца,
+                      созданных с использованием редкоземельного эрбия и сверхпроводников,
+                      раскручиваются в противоположных направлениях, формируя локальное искажение
+                      пространства-времени.
+                    </p>
+                    <p>
+                      В центр вращающейся системы сбрасывается сферическая транспортная капсула
+                      («додекаэдр-оболочка»). В экранизации капсула оборудована креслом, которое
+                      перед самым падением разрушается, освобождая пилота в невесомости — этот
+                      визуальный контраст подчёркивает бессилие земных страховочных конструкций перед
+                      физикой кротовой норы.
+                    </p>
+                  </div>
+
+                  <div class="spec-grid tabular">
+                    <div>
+                      <div class="spec-item-label">Первая площадка</div>
+                      <div class="spec-item-val">Мыс Канаверал (уничтожена)</div>
+                    </div>
+                    <div>
+                      <div class="spec-item-label">Резервная площадка</div>
+                      <div class="spec-item-val">Хоккайдо, Япония</div>
+                    </div>
+                    <div>
+                      <div class="spec-item-label">Экипаж капсулы</div>
+                      <div class="spec-item-val">1 человек (в фильме)</div>
+                    </div>
+                    <div>
+                      <div class="spec-item-label">Длительность падения</div>
+                      <div class="spec-item-val">~1,2 сек для наблюдателя</div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Panel 3: Transit & 18 hours -->
+              <article id="panel-transit" class="tab-panel" aria-labelledby="tab-transit">
+                <div class="tab-visual">
+                  <div class="tab-visual-media">
+                    <img
+                      src="images/wormhole_transit_cosmos.jpg"
+                      alt="Визуализация прохода через космическую кротовую нору к звёздному горизонту у Веги"
+                      referrerpolicy="no-referrer"
+                    />
+                  </div>
+                  <div class="tab-visual-footer tabular">
+                    Финал: Закрытые слушания Конгресса · Запись носителя: 18:00:00 помех
+                  </div>
+                </div>
+
+                <div class="tab-body">
+                  <div>
+                    <h3>Парадокс субъективного времени и восемнадцать часов статического шума</h3>
+                    <p>
+                      Пройдя через сеть астрофизических тоннелей Эйнштейна — Розена мимо Веги к
+                      сердцу галактики, Элли оказывается на иллюзорном побережье, воссозданном из
+                      её собственных воспоминаний о Флориде. Незнакомая цивилизация принимает облик
+                      её отца, чтобы не травмировать разум гостьи, и объясняет: контакт происходит
+                      постепенно, маленькими шагами, на протяжении тысячелетий.
+                    </p>
+                    <p>
+                      Для наблюдателей на Хоккайдо капсула просто падает в воду за долю секунды.
+                      Комиссия Конгресса обвиняет Элли в галлюцинации, пока секретный отчёт
+                      администрации Белого дома не фиксирует необъяснимый факт: камера на шлеме
+                      пилота записала ровно 18 часов сплошных помех за одну секунду реального
+                      времени.
+                    </p>
+                  </div>
+
+                  <div class="spec-grid tabular">
+                    <div>
+                      <div class="spec-item-label">Внешнее время падения</div>
+                      <div class="spec-item-val">~0,8 – 1,2 секунды</div>
+                    </div>
+                    <div>
+                      <div class="spec-item-label">Внутреннее время пути</div>
+                      <div class="spec-item-val">~18 часов</div>
+                    </div>
+                    <div>
+                      <div class="spec-item-label">Консультант по физике</div>
+                      <div class="spec-item-val">Проф. Кип Торн (Caltech)</div>
+                    </div>
+                    <div>
+                      <div class="spec-item-label">Ключевой статус отчёта</div>
+                      <div class="spec-item-val">Засекречено (Р. Константин)</div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 03: Cast Table & Expandable Native <details> Dossiers -->
+      <section id="cast" class="section">
+        <div class="container">
+          <header class="section-header">
+            <span class="section-index tabular">03. Актёрский ансамбль и постановка</span>
+            <h2 class="section-title">В ролях и научная подоплёка фильма</h2>
+            <p class="section-lead">
+              Главные действующие лица картины и три документальные справки о создании одной из
+              самых интеллектуально строгих лент мировой кинофантастики.
+            </p>
+          </header>
+
+          <div class="cast-table-wrap">
+            <table class="cast-table">
+              <thead>
+                <tr>
+                  <th scope="col">Актёр</th>
+                  <th scope="col">Персонаж</th>
+                  <th scope="col">Роль в истории</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="cast-actor">Джоди Фостер</td>
+                  <td class="cast-role">Д-р Элеонора «Элли» Эрроуэй</td>
+                  <td>Радиоастроном, руководитель группы поиска внеземных сигналов (SETI)</td>
+                </tr>
+                <tr>
+                  <td class="cast-actor">Мэттью Макконахи</td>
+                  <td class="cast-role">Палмер Джосс</td>
+                  <td>Христианский философ, писатель и советник президента США по этике</td>
+                </tr>
+                <tr>
+                  <td class="cast-actor">Том Скерритт</td>
+                  <td class="cast-role">Д-р Дэвид Драмлин</td>
+                  <td>Научный советник Белого дома, прагматичный соперник Элли</td>
+                </tr>
+                <tr>
+                  <td class="cast-actor">Джон Хёрт</td>
+                  <td class="cast-role">С. Р. Хэдден</td>
+                  <td>Закрытый от мира миллиардер-визионер, профинансировавший проект</td>
+                </tr>
+                <tr>
+                  <td class="cast-actor">Джеймс Вудс</td>
+                  <td class="cast-role">Майкл Китц</td>
+                  <td>Советник по национальной безопасности, ведущий допрос в Конгрессе</td>
+                </tr>
+                <tr>
+                  <td class="cast-actor">Уильям Фихтнер</td>
+                  <td class="cast-role">Кент Кларк</td>
+                  <td>Незрячий радиоастроном с феноменальным слухом, коллега Элли</td>
+                </tr>
+                <tr>
+                  <td class="cast-actor">Анджела Бассетт</td>
+                  <td class="cast-role">Рэйчел Константин</td>
+                  <td>Глава администрации президента, обнаружившая 18-часовую запись</td>
+                </tr>
+                <tr>
+                  <td class="cast-actor">Дэвид Морс</td>
+                  <td class="cast-role">Теодор Эрроуэй</td>
+                  <td>Отец Элли, приучивший её к наблюдательности и радиосвязи</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div id="legacy" class="dossier-list">
+            <details class="dossier-item" open>
+              <summary class="dossier-summary">
+                <span>Научная строгость: вклад Карла Сагана и Кипа Торна</span>
+                <span class="dossier-marker" aria-hidden="true">+</span>
+              </summary>
+              <div class="dossier-content">
+                <p>
+                  Ещё в 1985 году, работая над романом «Контакт», астрофизик Карл Саган обратился к
+                  своему коллеге из Калифорнийского технологического института Кипу Торну с просьбой
+                  придумать физически непротиворечивый способ межзвёздного перемещения быстрее
+                  света. В результате Торн и его ученик Майкл Моррис опубликовали знаменитую научную
+                  статью 1988 года о проходимых кротовых норах, возродив целое направление в
+                  теоретической гравитации.
+                </p>
+                <p>
+                  Сам Саган выступал со-продюсером фильма вплоть до своей смерти в декабре 1996
+                  года — за семь месяцев до премьеры. Картина завершается лаконичным посвящением:
+                  «Для Карла». Прототипом Элли Эрроуэй стала реальный астрофизик и лидер проекта
+                  SETI Джилл Тартер, консультировавшая Джоди Фостер на съёмках.
+                </p>
+              </div>
+            </details>
+
+            <details class="dossier-item">
+              <summary class="dossier-summary">
+                <span>Техническое новаторство: легендарный «зеркальный кадр»</span>
+                <span class="dossier-marker" aria-hidden="true">+</span>
+              </summary>
+              <div class="dossier-content">
+                <p>
+                  Одним из самых известных операторских и монтажных решений Роберта Земекиса стала
+                  непрерывная сцена бега юной Элли за лекарством для отца на второй этаж дома.
+                  Камера бежит впереди девочки вверх по лестнице и к зеркалу аптечного шкафчика — и
+                  в тот момент, когда её рука открывает дверцу, зрителю становится понятно, что всё
+                  происходящее было отражением в стекле, превращающимся в фотографию отца.
+                </p>
+                <p>
+                  Не менее показателен и трёхминутный вступительный пролёт камеры сквозь Вселенную
+                  в обратном порядке — от Земли, окутанной радиоэфиром XX века, через Солнечную
+                  систему и скопления галактик прямо в зрачок маленькой Элли.
+                </p>
+              </div>
+            </details>
+
+            <details class="dossier-item">
+              <summary class="dossier-summary">
+                <span>Признание, премии и художественное значение</span>
+                <span class="dossier-marker" aria-hidden="true">+</span>
+              </summary>
+              <div class="dossier-content">
+                <p>
+                  «Контакт» вышел в прокат 11 июля 1997 года и стал кассовым и интеллектуальным
+                  событием конца 1990-х, собрав более $171 млн в мировом прокате. Картина получила
+                  премию «Хьюго» за лучшую драматическую постановку, премию «Сатурн» (Джоди Фостер
+                  и Джена Мэлоун) и номинацию на «Оскар» за лучший звук.
+                </p>
+                <p>
+                  По прошествии десятилетий фильм остаётся редким примером мейнстримного кино, где
+                  первый контакт показан не через военное вторжение, а через бюрократию,
+                  фундаментальную науку, медиаистерию и тонкий диалог о природе человеческого знания.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>Архивная страница о фильме «Контакт» (1997) · Чистый HTML5 и CSS3 без скриптов</span>
+        <nav class="footer-links" aria-label="Навигация в подвале">
+          <a href="#top">Наверх</a>
+          <a href="#synopsis">Синопсис</a>
+          <a href="#signal-dossier">Сигнал</a>
+          <a href="#cast">Актёры</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
